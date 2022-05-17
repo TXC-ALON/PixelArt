@@ -226,3 +226,107 @@ less is more。
 抖动是一种用有限的颜色进行混色的技术
 
 ![image-20220516231411659](PixelLogic.assets/image-20220516231411659.png)
+
+抖动凑色是过去性能所限开发的一种技术
+
+![image-20220517224915047](PixelLogic.assets/image-20220517224915047.png)
+
+### 抖动是个双刃剑
+
+太多--画面显得粗糙和颗粒状。出现一种砂砾感。
+
+太少--大规模的没有抖色的卡通渲染渐变会显得平坦和条纹化。
+
+### 何时使用抖色？
+
+1. 原本会使用大量颜色来使画面自然的渐变
+2. 不会动的画面
+3. 纹理
+4. 有很严格的颜色限制
+5. 背景，各种会显得很空旷平淡的地方
+
+![image-20220517225538197](PixelLogic.assets/image-20220517225538197.png)
+
+### 抖色和平滑渲染的优劣
+
+![image-20220517225816900](PixelLogic.assets/image-20220517225816900.png)
+
+### 尽量避免双块
+
+![image-20220517230604265](PixelLogic.assets/image-20220517230604265.png)
+
+### 尽量避免冲突
+
+抖色的一大原则即是大隐隐于画面。更多是起到一种过渡，而不要突出。
+
+![image-20220517230105563](PixelLogic.assets/image-20220517230105563.png)
+
+### 各种抖色图案
+
+#### 方格式Checkered dithering
+
+![image-20220517230442977](PixelLogic.assets/image-20220517230442977.png)
+
+![image-20220517230501007](PixelLogic.assets/image-20220517230501007.png)
+
+#### 平行线式 Parallel lines
+
+适用于动作模糊，一般只用于有限动画，而不是在平滑动画里。
+
+![image-20220517230646148](PixelLogic.assets/image-20220517230646148.png)
+
+![image-20220517230713574](PixelLogic.assets/image-20220517230713574.png)
+
+#### 不连续线式 Discontinued lines
+
+比起平行线有更多的值和渐变层次
+
+同时有种整洁感
+
+![image-20220517230744637](PixelLogic.assets/image-20220517230744637.png)
+
+#### 花边式 Dents
+
+只有一条方格式，一般用来表示花边或者牙齿
+
+![image-20220517230820597](PixelLogic.assets/image-20220517230820597.png)
+
+#### 交织式 Intertwined 
+
+一般用来对一些特别暗或亮的小部分进行上色。
+
+![image-20220517231201261](PixelLogic.assets/image-20220517231201261.png)
+
+#### 随机式 Random dithering
+
+大多数情况不是很推荐。
+
+![image-20220517231411832](PixelLogic.assets/image-20220517231411832.png)
+
+#### 风格式 Stylised
+
+通过自己设计的纹理来创造渐变
+
+![image-20220517231624602](PixelLogic.assets/image-20220517231624602.png)
+
+### 纹理和渐变并不相同
+
+![image-20220517231718220](PixelLogic.assets/image-20220517231718220.png)
+
+
+
+### 突破卡通渲染--像画笔一样
+
+![image-20220517231831517](PixelLogic.assets/image-20220517231831517.png)
+
+### 就用笔刷来dithering
+
+![image-20220517231952292](PixelLogic.assets/image-20220517231952292.png)
+
+### 总结
+
+抖色如今似乎已经是过时的技术，如果你还想尝试，记住不要让他显眼突出。
+
+![image-20220517232024056](PixelLogic.assets/image-20220517232024056.png)
+
+## chapter6 从游戏的角度
