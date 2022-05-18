@@ -329,4 +329,78 @@ less is more。
 
 ![image-20220517232024056](PixelLogic.assets/image-20220517232024056.png)
 
-## chapter6 从游戏的角度
+## chapter6 游戏透视
+
+- 平面
+- 坐标系
+- 透视点
+- 投影
+- 正射投影
+
+![image-20220518121535270](PixelLogic.assets/image-20220518121535270.png)
+
+
+
+### 正射投影
+
+- 横向卷轴
+- 从上到下
+- 顶部
+- 等距的（无透视三维的）
+- 45度 四边形
+- 斜方
+
+![image-20220518121758358](PixelLogic.assets/image-20220518121758358.png)
+
+
+
+
+
+### 无透视视角 flat views
+
+![image-20220518122431419](PixelLogic.assets/image-20220518122431419.png)
+
+
+
+#### Side-view
+
+在2D游戏中最常见的一种透视。应用于横版卷轴或是走廊
+
+#### Top-down
+
+适用于探索世界
+
+![image-20220518125001376](PixelLogic.assets/image-20220518125001376.png)
+
+#### Top
+
+标准的90度，很少用
+
+
+
+### 平行线视角 Paraline views
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
