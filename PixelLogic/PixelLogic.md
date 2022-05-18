@@ -1,6 +1,6 @@
 # Pixel Art
 
-## chapter1 Line Art 线条艺术
+## Chapter1 Line Art 线条艺术
 
 ### Jaggle
 
@@ -32,7 +32,7 @@
 
 ![image-20220512221548676](PixelLogic.assets/image-20220512221548676.png)
 
-## chapter 2  Anti-Aliased 反锯齿
+## Chapter 2  Anti-Aliased 反锯齿
 
 ![image-20220512222339981](PixelLogic.assets/image-20220512222339981.png)
 
@@ -97,7 +97,7 @@ Detail细节化
 
 ![image-20220515021939207](PixelLogic.assets/image-20220515021939207.png)
 
-## chapter3 colour 颜色
+## Chapter3 colour 颜色
 
 像素画也是电子艺术，所以他的颜色以sliders滑块来控制变量。
 
@@ -161,7 +161,7 @@ Detail细节化
 
 ![image-20220515161731174](PixelLogic.assets/image-20220515161731174.png)
 
-## chapter4 Readability 可读性
+## Chapter4 Readability 可读性
 
 ![image-20220515164348897](PixelLogic.assets/image-20220515164348897.png)
 
@@ -329,7 +329,7 @@ less is more。
 
 ![image-20220517232024056](PixelLogic.assets/image-20220517232024056.png)
 
-## chapter6 游戏透视
+## Chapter6 游戏透视
 
 - 平面
 - 坐标系
@@ -372,6 +372,10 @@ less is more。
 
 ![image-20220518125001376](PixelLogic.assets/image-20220518125001376.png)
 
+若是真的完全遵循topdown视角，结果未必很好。
+
+![image-20220518231256885](PixelLogic.assets/image-20220518231256885.png)
+
 #### Top
 
 标准的90度，很少用
@@ -380,27 +384,50 @@ less is more。
 
 ### 平行线视角 Paraline views
 
+![image-20220518202614313](PixelLogic.assets/image-20220518202614313.png)
 
+#### 等距 Isometric view
 
+等距下的视角，那么格子就会显示是钻石菱形。
 
+与其用线条，不如用色块。
 
+![image-20220518203054239](PixelLogic.assets/image-20220518203054239.png)
 
+#### 如何在不同的角度画图形
 
+![image-20220518205058926](PixelLogic.assets/image-20220518205058926.png)
 
+#### 45°四角形
 
+这种形式很少见，很高的楼可以用这种方式。
 
+![image-20220518210059244](PixelLogic.assets/image-20220518210059244.png)
 
+#### 斜角的Oblique
 
+![image-20220518210154513](PixelLogic.assets/image-20220518210154513.png)
 
+### 真实透视 True Perspective
 
+游戏中很少用这种视角
 
+![image-20220518210728587](PixelLogic.assets/image-20220518210728587.png)
 
+2d游戏可以用真实的视角，但是需要很大的画面。
 
+![image-20220518231408793](PixelLogic.assets/image-20220518231408793.png)
 
+### 使用指导线
 
+![image-20220518231822056](PixelLogic.assets/image-20220518231822056.png)
 
+### 总结
 
+你处理这个世界的视角非常重要。
 
+![image-20220518231904058](PixelLogic.assets/image-20220518231904058.png)
 
+## Chapter7 Clean-up 后处理
 
-
+Clean-up 包括所有的精细化处理操作。
